@@ -16,7 +16,7 @@ export default function FAQS({}: Props) {
 
       <ul className="flex flex-col gap-4">
         {questions.map((item, idx) => (
-          <li key={item.question} className={`flex flex-col transition-all duration-300 overflow-hidden relative`}>
+          <li key={item.question} className={`flex flex-col transition-all duration-300 overflow-hidden relative rounded-md`}>
             <span className={`bg-primary/60 p-4 text-lg cursor-pointer`} onClick={() => handleOnClick(idx)}>
               {item.question}
             </span>
