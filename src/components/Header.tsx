@@ -11,8 +11,8 @@ export default function Header() {
               <img src="/logo.png" alt="Bondly logo" />
             </figure>
           </Link>
-          <Link href="/explore" className="text-lg">
-            Explore
+          <Link href="/projects" className="text-lg">
+            Projects
           </Link>
         </div>
         <ConnectButton />
